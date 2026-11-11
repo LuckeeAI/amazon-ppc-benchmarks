@@ -1,10 +1,10 @@
-source_id,period,ad_type,metric,yoy_change_pct,verified_from_primary,note
-tinuiti-2026q2,2026 Q2,Sponsored Products,spend,38,no,Q1 2026 was +21%; Prime Day moved into June in 2026
-tinuiti-2026q2,2026 Q2,Sponsored Products,spend_excl_prime_day,23,no,Same-dates comparison with Prime Day days removed from both years
-tinuiti-2026q2,2026 Q2,Sponsored Products,clicks,37,no,Secondary summaries only
-tinuiti-2026q2,2026 Q2,Sponsored Products,cpc,1,no,Secondary summaries only
-tinuiti-2026q2,2026 Q2,Sponsored Brands,spend,20,no,Q1 2026 was +3%
-tinuiti-2026q2,2026 Q2,Sponsored Brands,clicks,4,no,CPC reported up double digits (no exact figure)
-tinuiti-2026q2,2026 Q2,Amazon DSP,spend,67,yes,Stated on Tinuiti's report page; Q1 2026 was +41%
-tinuiti-2026q2,2026 Q2,Amazon DSP,impressions,60,no,Secondary summaries only
-pacvue-2026q2,2026 Q2,Sponsored Brands,cvr,26.5,no,Via Trellis; full report is gated
+source_id,period,ad_type,metric,yoy_change_pct,verified_from_primary,note,evidence_url
+tinuiti-2026q2,2026 Q2,Sponsored Products,spend,38,yes,Official recap confirms Q2 YoY; Prime Day held in June 2026,https://tinuiti.com/blog/amazon/prime-day-recap/
+tinuiti-2026q2,2026 Q2,Sponsored Products,spend_excl_prime_day,23,yes,Official recap confirms Q2 YoY; Prime Day 2026 dates and same calendar dates in 2025 removed,https://tinuiti.com/blog/amazon/prime-day-recap/
+tinuiti-2026q2,2026 Q2,Sponsored Products,clicks,37,no,Verified in Trellis compilation only; original report not reviewed,https://gotrellis.com/resources/blog/amazon-advertising-benchmarks
+tinuiti-2026q2,2026 Q2,Sponsored Products,cpc,1,no,Verified in Trellis compilation only; original report not reviewed,https://gotrellis.com/resources/blog/amazon-advertising-benchmarks
+tinuiti-2026q2,2026 Q2,Sponsored Brands,spend,20,yes,Official ROAS-by-channel table confirms Q2 +20%; Q1 was +3%,https://tinuiti.com/blog/measurement/defining-calculating-return-on-ad-spend-roas/
+tinuiti-2026q2,2026 Q2,Sponsored Brands,clicks,4,no,"Verified in Trellis compilation only; original report not reviewed; SB CPC described as double-digit growth, no exact value",https://gotrellis.com/resources/blog/amazon-advertising-benchmarks
+tinuiti-2026q2,2026 Q2,Amazon DSP,spend,67,yes,Official Q2 report landing page confirms +67%,https://tinuiti.com/research-insights/research/digital-ads-benchmark-report-q2-2026/
+tinuiti-2026q2,2026 Q2,Amazon DSP,impressions,60,no,Verified in Trellis compilation only; original report not reviewed,https://gotrellis.com/resources/blog/amazon-advertising-benchmarks
+pacvue-2026q2,2026 Q2,Sponsored Brands,cvr,26.5,yes,Q2 2026 YoY explicitly confirmed in Pacvue official holiday-strategy article,https://pacvue.com/blog/how-to-build-a-winning-holiday-ecommerce-strategy/

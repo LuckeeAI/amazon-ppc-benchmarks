@@ -1,7 +1,7 @@
 source_id,scope,acos_pct,cpc_usd,ctr_pct,cvr_pct,roas,cpm_usd,stat,note
-adbadger-2026,All categories,29.6,1.22,0.58,11.1,,7.08,average,"Body text says 30.67% ACoS and 11.72% CVR; table says 29.6% / 11.1%"
+adbadger-2026,All categories,29.6,1.22,0.58,11.1,,7.08,average,"Table: 29.6% ACoS / 11.1% CVR, Jan-Aug 2026; body: 30.67% / 11.72%; introduction says through September; table values retained"
 autron-2026,All categories,34,1.13,0.56,10.5,,,average,Median ACoS across its 10 categories is ~31%
-wiseppc-2026q2,Sponsored Products (Q1),16.0,0.51,0.40,2.30,1.59,,p25,CPC is US-only (19 accounts)
-wiseppc-2026q2,Sponsored Products (median),28.2,0.82,0.69,5.85,3.55,,median,CPC is US-only (19 accounts)
-wiseppc-2026q2,Sponsored Products (Q3),63.1,1.22,0.83,10.04,6.23,,p75,CPC is US-only (19 accounts)
+wiseppc-2026q2,Sponsored Products (p25),16.0,0.51,0.40,2.30,1.59,,p25,"69 accounts across marketplaces; CPC is US-only (19 accounts); 2026-04-01 to 2026-06-29; 7-day attribution; p25/p75 are quartiles, not calendar quarters"
+wiseppc-2026q2,Sponsored Products (median),28.2,0.82,0.69,5.85,3.55,,median,"69 accounts across marketplaces; CPC is US-only (19 accounts); 2026-04-01 to 2026-06-29; 7-day attribution; p25/p75 are quartiles, not calendar quarters"
+wiseppc-2026q2,Sponsored Products (p75),63.1,1.22,0.83,10.04,6.23,,p75,"69 accounts across marketplaces; CPC is US-only (19 accounts); 2026-04-01 to 2026-06-29; 7-day attribution; p25/p75 are quartiles, not calendar quarters"
 triplewhale-2026,All Amazon ads (blended),,,0.56,10.77,3.08,8.08,reported,"YoY: CTR +35.16%, CVR +7.67%, ROAS +9.70%, CPM +39.18%"

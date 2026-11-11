@@ -1,22 +1,22 @@
 # Amazon PPC Benchmarks 2026
 
-Public 2026 benchmarks for Amazon Sponsored Products ACoS, CPC, CTR and conversion rate, side by side, with the sample size, date and vendor behind each number.
+Public Amazon advertising benchmarks published in 2026, with ACoS, CPC, CTR and conversion rate side by side. Each source has its own ad coverage, sample, geography and measurement window; these figures are not a single industry average.
 
 **English** · [简体中文](README.zh-CN.md)
 
-![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-15803d) ![Last checked 2026-11-09](https://img.shields.io/badge/last%20checked-2026--11--09-1f2937) ![Sources: 9](https://img.shields.io/badge/sources-9-0e7490)
+![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-15803d) ![Last reviewed 2026-11-11](https://img.shields.io/badge/last%20reviewed-2026--11--11-1f2937) ![Sources: 9](https://img.shields.io/badge/sources-9-0e7490)
 
 Maintained by [Luckee](https://luckee.ai/?utm_source=github&utm_medium=readme&utm_campaign=amazon-ppc-benchmarks&utm_content=intro). Raw data is in [`data/`](data/) as CSV.
 
 ## Why another benchmark page
 
-Search "Amazon PPC benchmarks" and you get a dozen pages, each with one confident number per category. Put them next to each other and they disagree, sometimes by more than 25 ACoS points for the same category. Each publisher measures its own customers, over its own window, with its own definition of "average".
+Search "Amazon PPC benchmarks" and you get pages with different numbers for the same category, sometimes more than 25 ACoS points apart. Each publisher uses its own sample, measurement window and definition of "average".
 
-This repo doesn't pick a winner. It lists every number we could trace to a named source and shows how far apart they are. When the sources agree, the benchmark is useful. When they don't, the honest answer is that nobody knows the category average, and your own break-even ACoS matters more.
+This repo doesn't pick a winner. It lists numbers traceable to named sources and shows how far apart they are. Similar values can be a starting point for investigation, but agreement does not make different samples comparable or establish the category's population average. Your own break-even ACoS remains the relevant cost constraint.
 
 ## ACoS and CPC by category
 
-US, 2026. Autron and Ryze AI cover Sponsored Products only; Ad Badger doesn't split by ad type. Each cell is `ACoS / CPC` as published.
+2026 publications; measurement windows and geography vary. Ryze AI explicitly covers US sellers; Ad Badger and Autron do not clearly specify geography. Autron and Ryze AI cover Sponsored Products only; Ad Badger doesn't split by ad type. Each cell is `ACoS / CPC` as published, with CPC in USD.
 
 <!-- table:category:start -->
 | Category | Ad Badger | Autron | Ryze AI | Pacvue Q2 CPC | ACoS spread | Agreement |
@@ -33,14 +33,14 @@ US, 2026. Autron and Ryze AI cover Sponsored Products only; Ad Badger doesn't sp
 | Clothing & Apparel | 42% / $0.72 | 57% / $0.69 | 29.9% / $2.15 | $0.55 | 27.1 pts | None |
 <!-- table:category:end -->
 
-**Agreement** is based on the ACoS spread (highest minus lowest): Tight ≤ 5 pts, Loose ≤ 10 pts, None above that. Ad Badger figures are averages, Autron's are medians, Ryze AI's are averages from $25K+/month US sellers. Category names were mapped to a common set; the original names are in [`data/category_benchmarks.csv`](data/category_benchmarks.csv).
+**Agreement** describes only the numerical ACoS spread (highest minus lowest): Tight ≤ 5 percentage points, Loose > 5 and ≤ 10, None > 10. It is not a confidence rating. Ad Badger figures are averages, Autron's are medians, Ryze AI's are averages from US sellers with $25K+ monthly revenue. Category names were mapped to a common set; these mappings are approximate and the original names are in [`data/category_benchmarks.csv`](data/category_benchmarks.csv).
 
-Some patterns hold across every source:
+Within the categories shown:
 
-- **Books is the cheapest category to advertise.** It has the lowest CPC in every dataset.
-- **Health and beauty clicks cost the most.** Health & Household is the most expensive category for Pacvue ($2.18) and Ryze AI ($2.89).
+- **Books has the lowest CPC in the three ten-category datasets:** Ad Badger, Autron and Ryze AI. Lower CPC alone does not establish lower acquisition cost.
+- **The highest CPC category depends on the source.** Electronics leads Ad Badger ($1.45); Health & Household leads Autron ($1.42) and Ryze AI ($2.89). Pacvue reports $2.18 for Health & Household, but this repo includes only two of its category CPC values.
 - **Ryze AI's CPCs are the highest in every category**, often twice the others. Its sample is limited to sellers doing $25K+ a month, which may explain part of the gap.
-- **Apparel is where averages mean least.** The three ACoS figures range from 29.9% to 57%.
+- **Apparel has the widest ACoS spread in this table.** The three figures range from 29.9% to 57% and mix averages with a median.
 
 ## Conversion rate by category
 
@@ -57,7 +57,7 @@ Some patterns hold across every source:
 | Electronics | 9.5% | 9.4% | Triple Whale: 5.04% |
 | Clothing & Apparel | 8.6% | 7.3% | |
 
-Pacvue's 36.7% for grocery is far outside the other numbers, which suggests a different definition of conversion. Treat it as its own measure.
+Pacvue's 36.7% for grocery is far outside the other numbers. The available evidence does not establish whether this reflects the sample, period, attribution or metric definition; treat it separately. Triple Whale's category figures are medians across blended Amazon ad activity, rather than Sponsored Products-only values.
 
 ## Account-wide numbers
 
@@ -65,14 +65,16 @@ Pacvue's 36.7% for grocery is far outside the other numbers, which suggests a di
 |---|---|---|---|---|---|---|
 | Ad Badger | 29.6% | $1.22 | 0.58% | 11.1% | | Tool users, Jan–Aug 2026 |
 | Autron | 34% | $1.13 | 0.56% | 10.5% | | Not stated |
-| WisePPC (median) | 28.2% | $0.82 | 0.69% | 5.85% | 3.55 | 69 accounts, Q2 2026 |
+| WisePPC (median) | 28.2% | $0.82 | 0.69% | 5.85% | 3.55 | 69 accounts; CPC: 19 US accounts; Apr 1–Jun 29, 2026 |
 | Triple Whale | | | 0.56% | 10.77% | 3.08 | 2,800+ brands, Aug 2025–Jul 2026 |
 
-WisePPC is the only source that publishes a spread, not just a midpoint. The middle half of its accounts run **16% to 63% ACoS**. That range is a better picture of "normal" than any single average. Its conversion rate (5.85%) is about half the others. It's the median of per-account values, where every account counts equally regardless of size, so don't compare it directly with the averages above.
+WisePPC supplies the quartiles included in this repo: the middle half of its sampled accounts run **16.0% to 63.1% ACoS**. This is a distribution within its non-random sample, not an industry-wide normal range. The 5.85% conversion rate is the median of per-account values, with equal account weight. Other metrics cover 69 accounts across marketplaces, while CPC uses only 19 US accounts; attribution is 7 days. Do not directly equate these medians with the other publishers' overall figures.
+
+Ad Badger's overview table reports 29.6% ACoS and 11.1% CVR, while its prose reports 30.67% and 11.72%. We retain the table values. Its table notes specify January–August 2026, although the introduction says data through September. Autron labels its overall figures as averages and its category figures as medians. Triple Whale's overall values blend Amazon ad types.
 
 ## Trends: spend is up, Sponsored Products CPC is flat
 
-From Tinuiti's Q2 2026 Digital Ads Benchmark Report (more than $4B in managed spend, year over year):
+From Tinuiti's Q2 2026 Digital Ads Benchmark Report and related public articles, all year over year. Its more-than-$4B scale statement refers to annual managed spend across digital advertising platforms, not a disclosed Amazon-only Q2 sample:
 
 | Ad type | Spend | Other |
 |---|---|---|
@@ -80,7 +82,7 @@ From Tinuiti's Q2 2026 Digital Ads Benchmark Report (more than $4B in managed sp
 | Sponsored Brands | +20% | Clicks +4%, CPC up double digits |
 | Amazon DSP | +67% | Impressions +60% |
 
-Only the DSP spend figure appears on Tinuiti's public page. The rest comes from secondary summaries of the gated report, so it's marked `verified_from_primary=no` in [`data/ad_type_trends.csv`](data/ad_type_trends.csv).
+Tinuiti's public report page and related articles confirm the spend figures above, including Sponsored Products excluding Prime Day. The click, CPC and DSP impression changes remain verified only through secondary summaries. [`data/ad_type_trends.csv`](data/ad_type_trends.csv) records `verified_from_primary` and the evidence URL for each row; its separate Pacvue row is also confirmed by a public Pacvue article. The full Tinuiti report requires registration.
 
 ## What to do with this
 
@@ -92,19 +94,19 @@ break-even ACoS = (price − product cost − Amazon fees − shipping) ÷ price
 
 A $30 product with $12 in costs and fees has a 60% break-even ACoS. A 35% ACoS is profitable for that product even if it is "above benchmark". The same 35% loses money on a product with a 25% margin.
 
-**2. Use the benchmark only where the sources agree.** In a "Tight" category, an ACoS 10+ points above the band is worth a look. In a "None" category, the table tells you very little.
+**2. Match the scope before using a benchmark.** Compare ad type, geography, period, attribution and statistic first. A "Tight" label only means the displayed numbers are close; it does not establish a target ACoS or a threshold for changing bids.
 
-**3. Pull your own peer benchmark from Amazon.** Since May 18, 2026, Amazon Ads Benchmarks reporting compares your CTR, CPC, CPM and new-to-brand metrics with matched peer brands in your category, in the ad console and the API (`crossProgramBenchmarks`). It needs Brand Registry. It's the only benchmark built from your actual competitors.
+**3. Check Amazon's peer-brand benchmarks.** Amazon's May 18, 2026 announcement describes Benchmarks reporting for CTR, CPC, CPM and new-to-brand metrics, using comparable category brands. It requires Brand Registry and is available in the ad console and API (`crossProgramBenchmarks` for sponsored ads; `dspBenchmarks` for DSP). The peer set is selected by Amazon, rather than being a list of your chosen competitors.
 
 ## Reading a benchmark
 
 A category benchmark answers "what do accounts like the ones this vendor manages look like". Before you rely on a number, check:
 
-- **Who's in the sample.** Every source here is a tool or agency measuring its own customers. Tool users are not average sellers.
-- **Average or median.** A few large accounts can pull an average far from the typical seller.
+- **Who's in the sample.** Vendor datasets mainly represent their customers; Autron also describes cross-checking industry data, Trellis compiles other reports, and Amazon provides first-party peer matching. None of these establishes a random sample of all sellers.
+- **Average, median or weighted aggregate.** These answer different questions. Large accounts can dominate pooled metrics, while an account-level median gives each account equal rank; several publishers do not fully disclose weighting.
 - **Attribution window.** 7-day and 14-day attribution give different ACoS for the same campaigns.
 - **Ad type.** Sponsored Brands and DSP numbers are not comparable to Sponsored Products.
-- **Date.** Prime Day moved to June in 2026, which shifts any Q2 vs Q3 comparison.
+- **Date.** [Amazon scheduled US Prime Day for June 23–26, 2026](https://www.aboutamazon.com/news/retail/amazon-prime-day-june-2026), which affects comparisons involving Q2 and Q3.
 
 ## Sources
 
@@ -113,14 +115,14 @@ A category benchmark answers "what do accounts like the ones this vendor manages
 | `adbadger-2026` | [Ad Badger](https://www.adbadger.com/blog/amazon-advertising-stats/) | Jan–Aug 2026 | Not stated | Primary |
 | `autron-2026` | [Autron](https://autron.ai/benchmark/amazon-ppc-benchmarks-by-category-2026) | 2026 | Not stated | Primary |
 | `ryze-2026` | [Ryze AI](https://www.get-ryze.ai/blog/amazon-ads-benchmarks-acos-roas-and-cpc-by-category-2026) | 12 months | 850+ US accounts | Primary |
-| `wiseppc-2026q2` | [WisePPC](https://wiseppc.com/blog/amazon-sponsored-products-benchmarks/) | Apr–Jun 2026 | 69 accounts | Primary |
-| `triplewhale-2026` | [Triple Whale](https://www.triplewhale.com/blog/amazon-benchmarks) | Aug 2025–Jul 2026 | 2,800+ brands | Via Trellis |
-| `pacvue-2026q2` | [Pacvue](https://pacvue.com/guides-reports/2026-q2-commerce-media-benchmark-report/) | Q2 2026 | Not stated | Via Trellis (gated) |
-| `tinuiti-2026q2` | [Tinuiti](https://tinuiti.com/research-insights/research/digital-ads-benchmark-report-q2-2026/) | Q2 2026 | $4B+ spend | Partly via summaries |
+| `wiseppc-2026q2` | [WisePPC](https://wiseppc.com/blog/amazon-sponsored-products-benchmarks/) | Apr 1–Jun 29, 2026 | 69 accounts; US CPC: 19 | Primary |
+| `triplewhale-2026` | [Triple Whale](https://www.triplewhale.com/blog/amazon-benchmarks) | Aug 2025–Jul 2026 | 2,800+ brands | Primary |
+| `pacvue-2026q2` | [Pacvue](https://pacvue.com/guides-reports/2026-q2-commerce-media-benchmark-report/) | Q2 2026 | Not stated | Public primary excerpts; full report gated |
+| `tinuiti-2026q2` | [Tinuiti](https://tinuiti.com/research-insights/research/digital-ads-benchmark-report-q2-2026/) | Q2 2026 | $4B+ annual managed spend across platforms | Primary spend figures; other trends via summaries |
 | `trellis-2026` | [Trellis](https://gotrellis.com/resources/blog/amazon-advertising-benchmarks) | Compilation | | Primary |
 | `amazon-benchmarks-reporting` | [Amazon Ads](https://advertising.amazon.com/en-ca/resources/whats-new/benchmarks-reporting-now-generally-available-worldwide) | Your account | Peer brands | Primary |
 
-Full details, including each vendor's possible bias, are in [`data/sources.csv`](data/sources.csv). All figures were checked against the linked pages on 2026-11-09. The numbers belong to their publishers. This repo quotes them with attribution and isn't affiliated with any of them.
+Source records and accessible pages were reviewed on 2026-11-11. Full details, including geography, possible vendor bias and unresolved source conflicts, are in [`data/sources.csv`](data/sources.csv). Four Tinuiti trend rows remain secondary-only; see the row-level flags and [verification notes](VERIFICATION.md). Access to a page is not proof of every claim or of the underlying dataset. Figures are attributed to their publishers; this repo is not affiliated with them.
 
 ## Data files
 
@@ -143,4 +145,4 @@ A benchmark tells you where other accounts landed. It doesn't tell you which of 
 
 ## License
 
-Data and text: [CC BY 4.0](LICENSE). Credit "Luckee, amazon-ppc-benchmarks" and keep the original source links for each figure.
+Luckee's original text and compilation are licensed under [CC BY 4.0](LICENSE). Credit "Luckee, amazon-ppc-benchmarks" and retain the source links for each figure. Third-party material remains subject to its owners' rights; this license does not grant rights that Luckee does not hold.
