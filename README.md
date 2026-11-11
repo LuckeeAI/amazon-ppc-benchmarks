@@ -1,6 +1,6 @@
 # Amazon PPC Benchmarks 2026
 
-Every public 2026 benchmark for Amazon Sponsored Products ACoS, CPC, CTR and conversion rate, side by side, with the sample size, date and vendor behind each number.
+Public 2026 benchmarks for Amazon Sponsored Products ACoS, CPC, CTR and conversion rate, side by side, with the sample size, date and vendor behind each number.
 
 **English** · [简体中文](README.zh-CN.md)
 
@@ -16,7 +16,7 @@ This repo doesn't pick a winner. It lists every number we could trace to a named
 
 ## ACoS and CPC by category
 
-Sponsored Products, US, 2026. Each cell is `ACoS / CPC` as published.
+US, 2026. Autron and Ryze AI cover Sponsored Products only; Ad Badger doesn't split by ad type. Each cell is `ACoS / CPC` as published.
 
 <!-- table:category:start -->
 | Category | Ad Badger | Autron | Ryze AI | Pacvue Q2 CPC | ACoS spread | Agreement |
@@ -68,7 +68,7 @@ Pacvue's 36.7% for grocery is far outside the other numbers, which suggests a di
 | WisePPC (median) | 28.2% | $0.82 | 0.69% | 5.85% | 3.55 | 69 accounts, Q2 2026 |
 | Triple Whale | | | 0.56% | 10.77% | 3.08 | 2,800+ brands, Aug 2025–Jul 2026 |
 
-WisePPC is the only source that publishes a spread, not just a midpoint. The middle half of its accounts run **16% to 63% ACoS**. That range is a better picture of "normal" than any single average.
+WisePPC is the only source that publishes a spread, not just a midpoint. The middle half of its accounts run **16% to 63% ACoS**. That range is a better picture of "normal" than any single average. Its conversion rate (5.85%) is about half the others. It's the median of per-account values, where every account counts equally regardless of size, so don't compare it directly with the averages above.
 
 ## Trends: spend is up, Sponsored Products CPC is flat
 
