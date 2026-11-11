@@ -1,0 +1,39 @@
+category,source_id,category_as_published,acos_pct,cpc_usd,ctr_pct,cvr_pct,roas,stat
+Books,adbadger-2026,Books,19,0.38,0.22,18.0,,average
+Books,autron-2026,Books,26,0.40,0.30,13.3,,median
+Books,ryze-2026,Books & Media,18.2,0.89,0.73,,5.50,average
+Food & Grocery,adbadger-2026,Food & Grocery,21,0.58,0.39,16.5,,average
+Food & Grocery,autron-2026,Food & Grocery,23,0.56,0.53,13.7,,median
+Food & Grocery,ryze-2026,Food & Beverage,34.8,1.98,0.54,,2.87,average
+Food & Grocery,pacvue-2026q2,Grocery & Gourmet Food,,,,36.7,,reported
+Toys & Games,adbadger-2026,Toys & Games,28,0.78,0.35,12.1,,average
+Toys & Games,autron-2026,Toys & Games,26,0.83,0.42,13.1,,median
+Toys & Games,ryze-2026,Toys & Collectibles,27.3,1.41,0.70,,3.66,average
+Electronics,adbadger-2026,Electronics,29,1.45,0.28,9.5,,average
+Electronics,autron-2026,Electronics,30,1.11,0.38,9.4,,median
+Electronics,ryze-2026,Electronics,25.1,1.89,0.62,,3.98,average
+Electronics,pacvue-2026q2,Electronics,,,,,10.19,reported
+Electronics,triplewhale-2026,Electronics,,,,5.04,3.93,reported
+Beauty & Personal Care,adbadger-2026,Beauty & Personal Care,24,1.18,0.47,15.2,,average
+Beauty & Personal Care,autron-2026,Beauty & Personal Care,31,1.18,0.54,13.4,,median
+Beauty & Personal Care,ryze-2026,Beauty & Personal Care,36.0,2.47,0.51,,2.78,average
+Beauty & Personal Care,pacvue-2026q2,Beauty & Personal Care,,,,,3.13,reported
+Pet Supplies,adbadger-2026,Pet Supplies,26,0.91,0.43,14.0,,average
+Pet Supplies,autron-2026,Pet Supplies,31,1.23,0.47,13.6,,median
+Pet Supplies,ryze-2026,Pet Supplies,36.9,1.67,0.49,,2.71,average
+Pet Supplies,triplewhale-2026,Pets & Animals,,,,16.33,,reported
+Sports & Outdoors,adbadger-2026,Sports & Outdoors,33,0.82,0.30,10.3,,average
+Sports & Outdoors,autron-2026,Sports & Outdoors,31,1.00,0.41,9.2,,median
+Sports & Outdoors,ryze-2026,Sports & Outdoors,27.0,1.34,0.67,,3.70,average
+Home & Garden,adbadger-2026,Home & Garden,31,0.88,0.32,11.4,,average
+Home & Garden,autron-2026,Home & Garden,32,0.74,0.43,9.2,,median
+Home & Garden,ryze-2026,Home & Garden,27.7,1.52,0.58,,3.61,average
+Home & Garden,pacvue-2026q2,Home & Kitchen,,,,6.6,,reported
+Health & Household,adbadger-2026,Health & Household,27,1.05,0.41,13.8,,average
+Health & Household,autron-2026,Health & Household,36,1.42,0.53,13.2,,median
+Health & Household,ryze-2026,Health & Wellness,40.7,2.89,0.44,,2.46,average
+Health & Household,pacvue-2026q2,Health & Household,,2.18,,,,reported
+Clothing & Apparel,adbadger-2026,Clothing & Apparel,42,0.72,0.38,8.6,,average
+Clothing & Apparel,autron-2026,Clothing & Apparel,57,0.69,0.44,7.3,,median
+Clothing & Apparel,ryze-2026,Apparel & Accessories,29.9,2.15,0.47,,3.35,average
+Clothing & Apparel,pacvue-2026q2,"Clothing, Shoes & Jewelry",,0.55,,,,reported

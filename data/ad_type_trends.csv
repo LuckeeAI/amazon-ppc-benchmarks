@@ -1,0 +1,10 @@
+source_id,period,ad_type,metric,yoy_change_pct,verified_from_primary,note
+tinuiti-2026q2,2026 Q2,Sponsored Products,spend,38,no,Q1 2026 was +21%; Prime Day moved into June in 2026
+tinuiti-2026q2,2026 Q2,Sponsored Products,spend_excl_prime_day,23,no,Same-dates comparison with Prime Day days removed from both years
+tinuiti-2026q2,2026 Q2,Sponsored Products,clicks,37,no,Secondary summaries only
+tinuiti-2026q2,2026 Q2,Sponsored Products,cpc,1,no,Secondary summaries only
+tinuiti-2026q2,2026 Q2,Sponsored Brands,spend,20,no,Q1 2026 was +3%
+tinuiti-2026q2,2026 Q2,Sponsored Brands,clicks,4,no,CPC reported up double digits (no exact figure)
+tinuiti-2026q2,2026 Q2,Amazon DSP,spend,67,yes,Stated on Tinuiti's report page; Q1 2026 was +41%
+tinuiti-2026q2,2026 Q2,Amazon DSP,impressions,60,no,Secondary summaries only
+pacvue-2026q2,2026 Q2,Sponsored Brands,cvr,26.5,no,Via Trellis; full report is gated
